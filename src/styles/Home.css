@@ -6,5 +6,8 @@
 .home h1 {
   text-align: center;
 }
+.home h1 h1 {
+  font-family: "MediumItalic", "Georgia", sans-serif;
+}
 
 /*# sourceMappingURL=Home.css.map */
