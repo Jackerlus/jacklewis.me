@@ -1,53 +1,76 @@
-$bar-colour: #3d3b48
 $text-colour: #e4d1b3
+$bg-colour: #3d3b48
 $alt-text-colour: #a8947c
 
-.navigation .name
-  text-decoration: none
-  font-family: "MediumItalic", "Georgia", sans-serif
-  color: $text-colour
-  font-size: 30px
-  margin-left: 20%
-
-.navigation
-
-  height: 50px
-
+.nav-container
   display: flex
+  justify-content: space-between
   align-items: center
-  position: relative
-  padding: 0.5rem 0rem
-  background-color: $bar-colour
-  color: black
-  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.3)
+  background-color: $bg-colour
+  box-shadow: 0 2px 2px #363636
+  max-height: 70px
 
-  a
-    position: relative
+  .nav-name
     text-decoration: none
-    padding: 1rem 1rem
     color: $text-colour
-    font-size: 18px
-    line-height: 1.6
-    text-align: center
-    z-index: 1
+    font-size: 30px
+    margin: 5vw
+    font-family: "MediumItalic", "Georgia", sans-serif
 
-  ul
+  .nav-links
     display: flex
-    padding: 0
-
-  li
-    list-style-type: none
-    margin: 0 2rem
-
+    margin-right: 5vw
     a
+      color: $text-colour
       text-decoration: none
-      display: block
-      width: 100%
-      transition: color 0.5s ease
-
+      padding: 0 20px
+      transition: all 0.3s ease
     a:hover
       color: $alt-text-colour
 
-.navigation-menu
-  margin-left: auto
-  margin-right: 20%
+
+  @media (max-width: 600px)
+    .nav-links
+      display: none
+
+  .nav-hamburger
+    display: none
+    cursor: pointer
+    @media (max-width: 600px)
+      display: block
+      margin-right: 5vw
+
+    .bar1, .bar2, .bar3
+      width: 35px
+      height: 4px
+      margin: 6px 0
+      transition: 0.4s
+      background-color: $text-colour
+      border-radius: 2px
+
+    .change
+      &.bar1
+        transform: rotate(-45deg) translate(-7px, 7px)
+
+      &.bar2
+        opacity: 0
+
+      &.bar3
+        transform: rotate(45deg) translate(-7px, -7px)
+
+  .responsive-nav-links
+    display: none
+    @media (max-width: 600px)
+      display: block
+      position: absolute
+      background-color: $bg-colour
+      width: 50%
+      top: 60px
+      left: 50%
+      text-align: center
+      opacity: 95%
+      a
+        display: block
+        color: $text-colour
+        padding: 20px
+        text-decoration: none

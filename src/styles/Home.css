@@ -3,11 +3,21 @@
   color: black;
   font-size: 0.7rem;
 }
-.home h1 {
+
+.dialogue li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dialogue h1 {
   text-align: center;
 }
-.home h1 h1 {
+.dialogue h1 h1 {
   font-family: "MediumItalic", "Georgia", sans-serif;
+}
+
+img {
+  width: 8rem;
 }
 
 /*# sourceMappingURL=Home.css.map */
