@@ -1,39 +1,30 @@
+.navigation .name {
+  text-decoration: none;
+  font-family: "MediumItalic", "Georgia", sans-serif;
+  color: #e4d1b3;
+  font-size: 30px;
+  margin-left: 20%;
+}
+
 .navigation {
   height: 50px;
-  width: 100%;
   display: flex;
   align-items: center;
   position: relative;
   padding: 0.5rem 0rem;
-  background-color: #fff;
+  background-color: #3d3b48;
   color: black;
-  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.3);
 }
 .navigation a {
   position: relative;
   text-decoration: none;
   padding: 1rem 1rem;
-  color: black;
-  font-size: 22px;
+  color: #e4d1b3;
+  font-size: 18px;
   line-height: 1.6;
   text-align: center;
   z-index: 1;
-}
-.navigation a::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgb(207, 209, 209);
-  background: radial-gradient(closest-side, rgb(209, 211, 211) 0%, rgba(0, 212, 255, 0) 100%);
-  z-index: -1;
-  transition: opacity 0.3s linear;
-  opacity: 0;
-}
-.navigation a:hover::before {
-  opacity: 1;
 }
 .navigation ul {
   display: flex;
@@ -41,24 +32,21 @@
 }
 .navigation li {
   list-style-type: none;
-  margin: 0 1rem;
+  margin: 0 2rem;
 }
 .navigation li a {
   text-decoration: none;
   display: block;
   width: 100%;
-  font-size: 18px;
+  transition: color 0.5s ease;
 }
-
-.brand-name {
-  text-decoration: none;
-  color: black;
-  font-size: 1.3rem;
-  margin-left: 1rem;
+.navigation li a:hover {
+  color: #a8947c;
 }
 
 .navigation-menu {
   margin-left: auto;
+  margin-right: 20%;
 }
 
 /*# sourceMappingURL=NavBar.css.map */

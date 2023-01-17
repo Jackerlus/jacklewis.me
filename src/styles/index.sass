@@ -1,3 +1,5 @@
+$background-colour: #d0c6b7
+
 @font-face
   font-family: "Light"
   src: local("Montserrat-Light"), url("../fonts/Montserrat-Light.ttf") format("truetype")
@@ -7,6 +9,10 @@
   src: local("Montserrat-Regular"), url("../fonts/Montserrat-Regular.ttf") format("truetype")
 
 @font-face
+  font-family: "MediumItalic"
+  src: local("Montserrat-Regular"), url("../fonts/Montserrat-MediumItalic.ttf") format("truetype")
+
+@font-face
   font-family: "SemiBold"
   src: local("Montserrat-SemiBold"), url("../fonts/Montserrat-SemiBold.ttf") format("truetype")
 
@@ -14,6 +20,7 @@
   font-family: "Bold"
   src: local("Montserrat-Bold"), url("../fonts/Montserrat-Bold.ttf") format("truetype")
 
-*
+body
   margin: 0
   font-family: "Regular", "Georgia", sans-serif
+  background-color: $background-colour
