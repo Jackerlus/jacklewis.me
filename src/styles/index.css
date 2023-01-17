@@ -1,4 +1,8 @@
 @font-face {
+  font-family: "Pokemon";
+  src: local("PKMN RBYGSC"), url("../fonts/PKMN RBYGSC.ttf") format("truetype");
+}
+@font-face {
   font-family: "Light";
   src: local("Montserrat-Light"), url("../fonts/Montserrat-Light.ttf") format("truetype");
 }
@@ -8,7 +12,7 @@
 }
 @font-face {
   font-family: "MediumItalic";
-  src: local("Montserrat-Regular"), url("../fonts/Montserrat-MediumItalic.ttf") format("truetype");
+  src: local("Montserrat-MediumItalic"), url("../fonts/Montserrat-MediumItalic.ttf") format("truetype");
 }
 @font-face {
   font-family: "SemiBold";

@@ -1,23 +1,62 @@
 .home {
-  margin: 50px;
   color: black;
-  font-size: 0.7rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.dialogue li {
+.home .dialogue {
+  padding: 10px;
+}
+.home .dialogue img {
+  border: black solid;
+  border-radius: 10px;
+  width: 120px;
+  margin-right: 10px;
+}
+@media (max-width: 600px) {
+  .home .dialogue img {
+    width: 80px;
+  }
+}
+.home .dialogue .character {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 10px;
+  font-family: "Pokemon", "Consolas", monospace;
+}
+@media (max-width: 600px) {
+  .home .dialogue .character {
+    font-size: 12px;
+  }
+}
+.home .dialogue .text {
+  background-color: white;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #3d3b48;
+  border-radius: 10px;
+  padding: 10px;
+}
+@media (max-width: 600px) {
+  .home .dialogue .text {
+    padding: 7px;
+  }
+}
+.home .dialogue li {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.dialogue h1 {
+.home .dialogue h1 {
   text-align: center;
+  font-size: 18px;
+  font-family: "Pokemon", "Consolas", monospace;
 }
-.dialogue h1 h1 {
-  font-family: "MediumItalic", "Georgia", sans-serif;
-}
-
-img {
-  width: 8rem;
+@media (max-width: 600px) {
+  .home .dialogue h1 {
+    font-size: 12px;
+  }
 }
 
 /*# sourceMappingURL=Home.css.map */
