@@ -9,11 +9,6 @@
 .iframe {
   display: block;
   margin: auto;
-  opacity: 0;
-  animation: fadeInAnimation ease 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  animation-delay: 9s;
 }
 @media (max-width: 600px) {
   .iframe {
