@@ -1,17 +1,77 @@
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+h1 {
+  font-size: 24px;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 18px;
+  }
+}
+
 .home {
   color: black;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
+.home .break {
+  border: 1px dashed black;
+}
 .home .dialogue {
-  padding: 10px;
+  padding: 0 10px;
+}
+.home .dialogue .message1 {
+  font-family: "Pokemon", "Consolas", monospace;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  margin: 10px 0;
+}
+.home .dialogue .message1 h1 {
+  text-align: left;
+  font-size: 18px;
+}
+@media (max-width: 600px) {
+  .home .dialogue .message1 h1 {
+    font-size: 12px;
+    padding: 0 0;
+  }
+}
+.home .dialogue .message2 {
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  font-family: "Regular", "Georgia", monospace;
+  opacity: 0;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+.home .dialogue .message3 {
+  opacity: 0;
+  text-align: center;
+  font-family: "MediumItalic", "Georgia", sans-serif;
+  justify-content: center;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
 }
 .home .dialogue img {
   border: black solid;
   border-radius: 10px;
   width: 120px;
   margin-right: 10px;
+  margin-top: 10px;
 }
 @media (max-width: 600px) {
   .home .dialogue img {
@@ -40,7 +100,7 @@
 }
 @media (max-width: 600px) {
   .home .dialogue .text {
-    padding: 7px;
+    padding: 0 7px;
   }
 }
 .home .dialogue li {
@@ -48,15 +108,13 @@
   justify-content: space-between;
   align-items: center;
 }
-.home .dialogue h1 {
-  text-align: center;
-  font-size: 18px;
-  font-family: "Pokemon", "Consolas", monospace;
-}
-@media (max-width: 600px) {
-  .home .dialogue h1 {
-    font-size: 12px;
-  }
+
+.new-section {
+  opacity: 0;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 7s;
 }
 
 /*# sourceMappingURL=Home.css.map */

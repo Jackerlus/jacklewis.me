@@ -1,0 +1,16 @@
+@keyframes fadeInAnimation
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
+.iframe
+  display: block
+  margin: auto
+  opacity: 0
+  animation: fadeInAnimation ease 2s
+  animation-iteration-count: 1
+  animation-fill-mode: forwards
+  animation-delay: 9s
+  @media (max-width: 600px)
+    display: none
