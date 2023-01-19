@@ -16,6 +16,16 @@ h1 {
   }
 }
 
+h2 {
+  font-size: 18px;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  h2 {
+    font-size: 14px;
+  }
+}
+
 .home {
   color: black;
   max-width: 800px;

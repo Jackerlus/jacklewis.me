@@ -30,7 +30,9 @@ function Home() {
                 </li>
             </ul>
             <hr className="break"></hr>
-            <h1 className="name">Jack Lewis</h1><h1>Computing for Business and Management Grad</h1>
+            <h1 className="name">Jack Lewis</h1>
+            <h1>Bsc, Computing for Business and Management (2.1)</h1>
+            <h2>University of Sussex</h2>
             <div className="icon-row">
                 <a href=""><img alt="Email icon" className="icon" src="https://jacklewis.me/icons/email.svg" /></a>
                 <a href="https://github.com/Jackerlus"><img alt="Github icon" className="icon" src="https://jacklewis.me/icons/github.svg" /></a>
