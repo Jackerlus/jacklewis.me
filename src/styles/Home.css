@@ -12,7 +12,7 @@ h1 {
 }
 @media (max-width: 600px) {
   h1 {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -22,18 +22,25 @@ h2 {
 }
 @media (max-width: 600px) {
   h2 {
-    font-size: 14px;
+    font-size: 17px;
   }
 }
 
 .home {
   color: black;
-  max-width: 800px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .home ul li {
   font-size: 18px;
+}
+@media (max-width: 600px) {
+  .home ul li {
+    font-size: 16px;
+  }
 }
 .home .icon-row {
   text-align: center;
@@ -46,7 +53,7 @@ h2 {
   border: 1px dashed black;
 }
 .home .dialogue {
-  padding: 0 10px 0 10px;
+  padding: 0;
 }
 .home .dialogue .message1 {
   font-family: "Pokemon", "Consolas", monospace;
@@ -139,11 +146,19 @@ h2 {
   font-family: "MediumItalic", "Georgia", sans-serif;
 }
 
+.skills {
+  display: grid;
+}
 .skills .proficiency {
-  float: left;
+  grid-column: 1;
 }
 .skills .other-skills {
-  float: right;
+  grid-column: 2;
+}
+@media (max-width: 600px) {
+  .skills .other-skills {
+    grid-column: 1;
+  }
 }
 .skills .skills-title {
   text-align: left;

@@ -12,25 +12,28 @@ h1
   font-size: 26px
   text-align: center
   @media (max-width: 600px)
-    font-size: 18px
+    font-size: 20px
 
 //General h2 styling
 h2
   font-size: 23px
   text-align: center
   @media (max-width: 600px)
-    font-size: 14px
+    font-size: 17px
 
 //Styling for the main home body
 .home
   color: black
-  max-width: 800px
+  max-width: 700px
   margin-left: auto
   margin-right: auto
-
+  padding-left: 20px
+  padding-right: 20px
   ul
     li
       font-size: 18px
+      @media (max-width: 600px)
+        font-size: 16px
 
   .icon-row
     text-align: center
@@ -45,21 +48,21 @@ h2
 
   //For the character dialogue section and intro at the top
   .dialogue
-    padding: 0 10px 0 10px
+    padding: 0
 
     //The parent div for the first message with the Pokemon font
     .message1
+      font-family: "Pokemon", "Consolas", monospace
+      animation: fadeInAnimation ease 1s
+      animation-iteration-count: 1
+      animation-fill-mode: forwards
+      margin: 10px 0
       h1
         text-align: left
         font-size: 18px
         @media (max-width: 600px)
           font-size: 12px
           padding: 0 0
-      font-family: "Pokemon", "Consolas", monospace
-      animation: fadeInAnimation ease 1s
-      animation-iteration-count: 1
-      animation-fill-mode: forwards
-      margin: 10px 0
 
     //Text inside message1
     .text
@@ -133,10 +136,13 @@ h2
     font-family: "MediumItalic", "Georgia", sans-serif
 
 .skills
+  display: grid
   .proficiency
-    float: left
+    grid-column: 1
   .other-skills
-    float: right
+    grid-column: 2
+    @media (max-width: 600px)
+      grid-column: 1
   .skills-title
     text-align: left
     justify-content: left

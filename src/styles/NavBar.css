@@ -63,6 +63,7 @@
 }
 @media (max-width: 600px) {
   .nav-container .responsive-nav-links {
+    z-index: 1;
     display: block;
     position: absolute;
     background-color: #3d3b48;
