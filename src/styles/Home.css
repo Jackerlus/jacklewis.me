@@ -7,7 +7,7 @@
   }
 }
 h1 {
-  font-size: 24px;
+  font-size: 26px;
   text-align: center;
 }
 @media (max-width: 600px) {
@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 23px;
   text-align: center;
 }
 @media (max-width: 600px) {
@@ -31,6 +31,9 @@ h2 {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+}
+.home ul li {
+  font-size: 18px;
 }
 .home .icon-row {
   text-align: center;
@@ -134,6 +137,17 @@ h2 {
 }
 .home .name {
   font-family: "MediumItalic", "Georgia", sans-serif;
+}
+
+.skills .proficiency {
+  float: left;
+}
+.skills .other-skills {
+  float: right;
+}
+.skills .skills-title {
+  text-align: left;
+  justify-content: left;
 }
 
 /*# sourceMappingURL=Home.css.map */
