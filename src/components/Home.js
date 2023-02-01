@@ -1,4 +1,4 @@
-import './styles/Home.css';
+import '../styles/Home.css';
 
 function Home() {
     return (
@@ -8,7 +8,7 @@ function Home() {
                     <img className="portrait" alt="AI-generated stylised portrait rendition of the owner of this site,
                         framed from the neck up" src="https://jacklewis.me/img/lensapic.png" />
                     <section>
-                        <a href="" className="character">Jack</a>
+                        <a href="src" className="character">Jack</a>
                         <div className="text">
                             <h1 id="intro">Hi there. I'm a computer science graduate looking to kickstart my career in software engineering.</h1>
                         </div>
