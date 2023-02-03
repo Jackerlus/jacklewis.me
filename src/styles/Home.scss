@@ -140,12 +140,16 @@ h2 {
     .name {
       font-family: "MediumItalic", "Georgia", sans-serif;
     }
-    .img-graduation {
-      border-radius: 10px;
-      border: #3d3b48 solid 3px;
-      object-fit: cover;
-      width: 50%;
-      aspect-ratio: 1/1;
+    .img-container {
+      display: flex;
+      justify-content: center;
+      .img-graduation {
+        border-radius: 10px;
+        border: #3d3b48 solid 3px;
+        object-fit: cover;
+        width: 50%;
+        aspect-ratio: 1/1;
+      }
     }
   }
 }

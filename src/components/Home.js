@@ -32,8 +32,10 @@ function Home() {
             <hr className="break"></hr>
             <section className="about">
                 <h1 className="name">Jack Lewis</h1>
-                <img alt="The author, Jack, in his graduation gown and cap posing with his father on his graduation day."
-                     className="img-graduation" src="https://jacklewis.me/img/graduation.jpg" />
+                <div className="img-container">
+                    <img alt="The author, Jack, in his graduation gown and cap posing with his father on his graduation day."
+                        className="img-graduation" src="https://jacklewis.me/img/graduation.jpg" />
+                </div>
                 <h1>BSc, Computing for Business and Management (2.1)</h1>
                 <h2>University of Sussex, Class of 2022</h2>
                 <section className="icon-row">

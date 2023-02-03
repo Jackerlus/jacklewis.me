@@ -114,7 +114,11 @@ h2 {
 .home .about .name {
   font-family: "MediumItalic", "Georgia", sans-serif;
 }
-.home .about .img-graduation {
+.home .about .img-container {
+  display: flex;
+  justify-content: center;
+}
+.home .about .img-container .img-graduation {
   border-radius: 10px;
   border: #3d3b48 solid 3px;
   object-fit: cover;
