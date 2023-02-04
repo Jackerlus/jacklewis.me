@@ -1,41 +1,28 @@
-import React, {useState} from 'react';
-import {BrowserRouter, Link, Route, Routes} from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import "./styles/App.css";
 import Home from "./components/Home";
 import FileShare from "./components/FileShare";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import NavBar from "./components/NavBar";
 
 function App() {
-    const [isOpen, setIsOpen] = useState(false);
     return(
-      <div>
+      <div className="page-container">
           <BrowserRouter>
-              <nav className="nav-container">
-                  <Link to="/" className="nav-name">Jack Lewis</Link>
-                  <div className="nav-links">
-                      <Link to="/">Home</Link>
-                      <Link to="/fileshare">FileShare</Link>
-                      <Link to="/">Contact</Link>
-                  </div>
-                  <div className="nav-hamburger" onClick={() => setIsOpen(!isOpen)}>
-                      <div className={`bar1 ${isOpen ? 'change' : ''}`}></div>
-                      <div className={`bar2 ${isOpen ? 'change' : ''}`}></div>
-                      <div className={`bar3 ${isOpen ? 'change' : ''}`}></div>
-                  </div>
-                  {isOpen && (
-                      <div className="responsive-nav-links">
-                          <Link to="/">Home</Link>
-                          <Link to="/fileshare">FileShare</Link>
-                          <Link to="/">Contact</Link>
-                      </div>
-                  )}
-              </nav>
-              <Routes>
-                  <Route path="/">
-                      <Route index element={<Home />} />
-                      <Route path="/fileshare" element={<FileShare/>} />
-                  </Route>
-              </Routes>
+              <NavBar />
+              <div className="content-container">
+                  <Routes>
+                      <Route path="/">
+                          <Route index element={<Home />} />
+                          <Route path="/fileshare" element={ <FileShare/> } />
+                          <Route path="/contact" element={ <Contact /> } />
+                      </Route>
+                  </Routes>
+              </div>
           </BrowserRouter>
+          <Footer />
       </div>
     );
 }
