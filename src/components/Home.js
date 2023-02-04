@@ -78,8 +78,8 @@ function Home() {
                                 including hitting targets for connections, colleague deals, ASP, marketing communications and more.</li>
                             <br/>
                             <li>I create personal, welcoming experiences for customers coming into the store, whether they're buying
-                                anything or not. Many of our customers are elderly and require that extra bit of patience and care in
-                                explaining concepts that may be alien to them.</li>
+                                anything or not. Many of our customers are elderly and require extra patience and care in
+                                explaining concepts that are alien to them.</li>
                         </ul>
                     </section>
                     <section className="employment-ussu">
@@ -87,11 +87,11 @@ function Home() {
                         <ul>
                             <li>Managing the IT systems of the students' union including general sysadmin, network
                                 maintenance and expansion, helpdesk service, and ordering new equipment. Focus on
-                                virtualisation at first, before carrying out an overhaul towards a ChromeOS company-wide.</li>
+                                virtualisation at first, before carrying out an overhaul towards ChromeOS company-wide.</li>
                             <br />
                             <li>Technical expertise was an important part of this role, but much of my day to day job was using
                                 communication skills to explain complex technical concepts to other employees that
-                                weren't as IT-literate. Being able to break these down into easily understood points was
+                                weren't as IT-literate. Breaking these down into easily understood points was
                                 vital.</li>
                         </ul>
                     </section>
