@@ -62,6 +62,7 @@ function Home() {
                             <li>Social Media Content</li>
                             <li>Customer Service</li>
                             <li>Fast learner with new technologies</li>
+                            <li>Solid teamworking and communication fundamentals</li>
                         </ul>
                     </div>
                 </section>
@@ -84,9 +85,9 @@ function Home() {
                     <section className="employment-ussu">
                         <h2>IT Assistant, University of Sussex Students' Union</h2>
                         <ul>
-                            <li>Managing the IT systems of the students' union including general sysadmin, network maintenance and expansion,
-                                helpdesk service, and ordering new equipment. Large focus on virtualisation at first, then the department
-                                undertook an overhaul towards a ChromeOS-based setup company-wide.</li>
+                            <li>Managing the IT systems of the students' union including general sysadmin, network
+                                maintenance and expansion, helpdesk service, and ordering new equipment. Focus on
+                                virtualisation at first, before carrying out an overhaul towards a ChromeOS company-wide.</li>
                             <br />
                             <li>Technical expertise was an important part of this role, but much of my day to day job was using
                                 communication skills to explain complex technical concepts to other employees that
