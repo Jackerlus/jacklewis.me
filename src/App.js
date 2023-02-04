@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {BrowserRouter, Link, Route, Routes} from 'react-router-dom';
+import "./styles/App.css";
 import Home from "./components/Home";
-import Footer from "./components/Footer";
 import FileShare from "./components/FileShare";
 
 function App() {
@@ -30,15 +30,12 @@ function App() {
                   )}
               </nav>
               <Routes>
-                  <Route index path="/">
-                      <Home />
-                  </Route>
-                  <Route exact path="/fileshare">
-                      <FileShare />
+                  <Route path="/">
+                      <Route index element={<Home />} />
+                      <Route path="/fileshare" element={<FileShare/>} />
                   </Route>
               </Routes>
           </BrowserRouter>
-          <Footer />
       </div>
     );
 }
