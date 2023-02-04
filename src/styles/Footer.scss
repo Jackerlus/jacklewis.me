@@ -1,7 +1,14 @@
 $bg-colour: #3d3b48;
+$text-colour: #e4d1b3;
 
 .footer {
-  height: 40px;
+  height: 3.5rem;
   width: 100%;
   background-color: $bg-colour;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: $text-colour;
+  position: absolute;
+  bottom: 0;
 }
