@@ -1,8 +1,8 @@
 function Contact() {
     return(
-        <section>
+        <div>
             <h1>Coming soon</h1>
-        </section>
+        </div>
     )
 }
 
