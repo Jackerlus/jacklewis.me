@@ -10,7 +10,7 @@ function NavBar() {
             <Link to="/" className="nav-name">Jack Lewis</Link>
             <div className="nav-links">
                 <Link to="/">Home</Link>
-                <Link to="/fileshare">FileShare</Link>
+                <Link to="/login">FileShare</Link>
                 <Link to="/contact">Contact</Link>
             </div>
             <div className="nav-hamburger" onClick={() => setIsOpen(!isOpen)}>
@@ -21,7 +21,7 @@ function NavBar() {
             {isOpen && (
                 <div className="responsive-nav-links">
                     <Link to="/">Home</Link>
-                    <Link to="/fileshare">FileShare</Link>
+                    <Link to="/login">FileShare</Link>
                     <Link to="/contact">Contact</Link>
                 </div>
             )}
