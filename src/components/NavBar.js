@@ -1,9 +1,10 @@
 import '../styles/NavBar.css';
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import OutsideClickHandler from "react-outside-click-handler/esm/OutsideClickHandler";
 
 function NavBar() {
-    //Initiating a hook to create state variable 'isOpen' and function 'setIsOpen' to update the state
+    //Initiating a hook to create state variable 'isOpen' and function 'setIsOpen' to update the state of the menu
     const [isOpen, setIsOpen] = useState(false);
     return(
         <nav className="nav-container">
@@ -13,13 +14,21 @@ function NavBar() {
                 <Link to="/login">FileShare</Link>
                 <Link to="/contact">Contact</Link>
             </div>
+            <OutsideClickHandler
+                onOutsideClick={() => {
+                    if (isOpen) {
+                        setIsOpen(!isOpen);
+                    }
+                }
+            }>
             <div className="nav-hamburger" onClick={() => setIsOpen(!isOpen)}>
                 <div className={`bar1 ${isOpen ? 'change' : ''}`}></div>
                 <div className={`bar2 ${isOpen ? 'change' : ''}`}></div>
                 <div className={`bar3 ${isOpen ? 'change' : ''}`}></div>
             </div>
+            </OutsideClickHandler>
             {isOpen && (
-                <div className="responsive-nav-links">
+                <div id="mobile-menu" className="responsive-nav-links">
                     <Link to="/">Home</Link>
                     <Link to="/login">FileShare</Link>
                     <Link to="/contact">Contact</Link>
