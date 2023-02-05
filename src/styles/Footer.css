@@ -9,5 +9,9 @@
   position: absolute;
   bottom: 0;
 }
+.footer p {
+  text-align: center;
+  margin: 10px;
+}
 
 /*# sourceMappingURL=Footer.css.map */

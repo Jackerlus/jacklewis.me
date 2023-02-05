@@ -11,4 +11,9 @@ $text-colour: #e4d1b3;
   color: $text-colour;
   position: absolute;
   bottom: 0;
+
+  p {
+    text-align: center;
+    margin: 10px;
+  }
 }
