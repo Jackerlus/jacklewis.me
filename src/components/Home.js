@@ -70,6 +70,7 @@ function Home() {
                     <h1>Notable employment history:</h1>
                     <section className="employment-tesco">
                         <h2>Sales Assistant, Tesco Mobile (Current Role)</h2>
+                        <h3>Dec 2022 - Present</h3>
                         <ul>
                             <li>Sales and customer service role selling mobile devices and network tariffs to customers,
                                 as well as performing technical troubleshooting.</li>
@@ -84,6 +85,7 @@ function Home() {
                     </section>
                     <section className="employment-ussu">
                         <h2>IT Assistant, University of Sussex Students' Union</h2>
+                        <h3>May 2019 - Aug 2022</h3>
                         <ul>
                             <li>Managing the IT systems of the students' union including general sysadmin, network
                                 maintenance and expansion, helpdesk service, and ordering new equipment. Focus on

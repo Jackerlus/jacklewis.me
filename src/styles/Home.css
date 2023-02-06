@@ -114,6 +114,9 @@ h2 {
 .home .about .name {
   font-family: "MediumItalic", "Georgia", sans-serif;
 }
+.home .about .employment h3 {
+  text-align: center;
+}
 .home .about .img-container {
   display: flex;
   justify-content: center;
