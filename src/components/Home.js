@@ -71,7 +71,8 @@ function Home() {
                 <h1>My recent side projects:</h1>
                 <div className="project">
                     <a href="https://github.com/Jackerlus/soundb" className="project-link">
-                        <img className="project-image" src="images/sounDB.png" alt="A screenshot of the author's sounDB project. Features a grid of music search results retrieved from an API."></img>
+                        <img className="project-image" src="images/sounDB.png"
+                            alt="A screenshot of the author's sounDB project. Features a grid of music search results retrieved from an API."></img>
                     </a>
                     <h2>sounDB</h2>
                     <ul className="project-description">

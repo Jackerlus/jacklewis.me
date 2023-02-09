@@ -1,6 +1,6 @@
 .nav-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: #3d3b48;
   box-shadow: 0 2px 2px #363636;
