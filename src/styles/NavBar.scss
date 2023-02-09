@@ -10,6 +10,12 @@ $alt-text-colour: #a8947c;
   box-shadow: 0 2px 2px #363636;
   max-height: 70px;
 
+  @media (max-width: 600px) {
+    .nav-container {
+      justify-content: space-between;
+    }
+  }
+
   .nav-name {
     text-decoration: none;
     color: $text-colour;

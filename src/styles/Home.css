@@ -32,7 +32,7 @@ p {
 
 .project-image {
   max-width: 400px;
-  margin: 0 auto;
+  width: 100%;
   border-radius: 10px;
   border: #3d3b48 solid 3px;
   object-fit: cover;
@@ -152,7 +152,8 @@ p {
   border-radius: 10px;
   border: #3d3b48 solid 3px;
   object-fit: cover;
-  width: 50%;
+  width: 100%;
+  max-width: 400px;
   aspect-ratio: 1/1;
 }
 
