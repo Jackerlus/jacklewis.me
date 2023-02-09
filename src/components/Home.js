@@ -7,12 +7,12 @@ function Home() {
                 <li className="message1">
                     <img className="portrait" alt="AI-generated stylised portrait rendition of the owner of this site,
                         framed from the neck up" src="https://jacklewis.me/img/lensapic.png" />
-                    <section>
+                    <div>
                         <a href="src" className="character">Jack</a>
                         <div className="text">
                             <h1 id="intro">Hi there. I'm a computer science graduate looking to kickstart my career in software engineering.</h1>
                         </div>
-                    </section>
+                    </div>
                 </li>
                 <li className="message2">
                     <h2>
@@ -38,11 +38,11 @@ function Home() {
                 </div>
                 <h1>BSc, Computing for Business and Management (2.1)</h1>
                 <h2>University of Sussex, Class of 2022</h2>
-                <section className="icon-row">
+                <div className="icon-row">
                     <a href="https://jacklewis.me"><img alt="Email icon" className="icon" src="https://jacklewis.me/icons/email.svg" /></a>
                     <a href="https://github.com/Jackerlus"><img alt="Github icon" className="icon" src="https://jacklewis.me/icons/github.svg" /></a>
                     <a href="https://linkedin.com/in/jacklewis9"><img alt="LinkedIn icon" className="icon" src="https://jacklewis.me/icons/linkedin.svg" /></a>
-                </section>
+                </div>
                 <section className="skills">
                     <div className="proficiency">
                         <h2 className="skills-title">Proficiency in...</h2>
@@ -66,38 +66,35 @@ function Home() {
                         </ul>
                     </div>
                 </section>
-                <section className="employment">
-                    <h1>Notable employment history:</h1>
-                    <section className="employment-tesco">
-                        <h2>Sales Assistant, Tesco Mobile (Current Role)</h2>
-                        <h3>Dec 2022 - Present</h3>
-                        <ul>
-                            <li>Sales and customer service role selling mobile devices and network tariffs to customers,
-                                as well as performing technical troubleshooting.</li>
-                            <br/>
-                            <li>This is a target-oriented role, and while having only just started I am pulling solid figures,
-                                including hitting targets for connections, colleague deals, ASP, marketing communications and more.</li>
-                            <br/>
-                            <li>I create personal, welcoming experiences for customers coming into the store, whether they're buying
-                                anything or not. Many of our customers are elderly and require extra patience and care in
-                                explaining concepts that are alien to them.</li>
-                        </ul>
-                    </section>
-                    <section className="employment-ussu">
-                        <h2>IT Assistant, University of Sussex Students' Union</h2>
-                        <h3>May 2019 - Aug 2022</h3>
-                        <ul>
-                            <li>Managing the IT systems of the students' union including general sysadmin, network
-                                maintenance and expansion, helpdesk service, and ordering new equipment. Focus on
-                                virtualisation at first, before carrying out an overhaul towards ChromeOS company-wide.</li>
-                            <br />
-                            <li>Technical expertise was an important part of this role, but much of my day to day job was using
-                                communication skills to explain complex technical concepts to other employees that
-                                weren't as IT-literate. Breaking these down into easily understood points was
-                                vital.</li>
-                        </ul>
-                    </section>
-                </section>
+            </section>
+            <section className="projects">
+                <h1>My recent side projects:</h1>
+                <div className="project">
+                    <a href="https://github.com/Jackerlus/soundb" className="project-link">
+                        <img className="project-image" src="images/sounDB.png" alt="A screenshot of the author's sounDB project. Features a grid of music search results retrieved from an API."></img>
+                    </a>
+                    <h2>sounDB</h2>
+                    <ul className="project-description">
+                        <li>A music release searching application utilising the <a href='https://musicbrainz.org/doc/MusicBrainz_API'>MusicBrainz API</a>,
+                            with cover art pulled from the <a href='https://musicbrainz.org/doc/Cover_Art_Archive/API'>Cover Art Archive API.</a></li>
+                        <li>Inspired by freeCodeCamp's OMDB movie searching app <a href='https://www.freecodecamp.org/news/how-to-build-a-movie-search-app-using-react-hooks-24eb72ddfaf7/'>tutorial</a>.
+                            I took the idea and designed it for music instead with a different set of APIs.</li>
+                        <li>This project was useful for refreshing my knowledge of API usage and manipulation of JSON objects.</li>
+                    </ul>
+                </div>
+                <br />
+                <div className="project">
+                    <a href="https://github.com/Jackerlus/jacklewis.me" className="project-link">
+                        <img className="project-image" src="images/jacklewis.me.png"
+                            alt="A screenshot of the author's sounDB project. Features a screenshot of the top of the homepage of this website in the mobile display view." />
+                    </a>
+                    <h2>jacklewis.me (this site)</h2>
+                    <ul className="project-description">
+                        <li>My personal site. Used for my own dev experimentation and learning, as well as for showing my skills and projects to potential employers.</li>
+                        <li>Inspired by freeCodeCamp's OMDB movie searching app <a href='https://www.freecodecamp.org/news/how-to-build-a-movie-search-app-using-react-hooks-24eb72ddfaf7/'>tutorial</a>.</li>
+                        <li>Through this project I learned valuable lessons in responsive design, accessibility, and React development.</li>
+                    </ul>
+                </div>
             </section>
         </section>
     );
