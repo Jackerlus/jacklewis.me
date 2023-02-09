@@ -11,7 +11,7 @@ function NavBar() {
             <Link to="/" className="nav-name">Jack Lewis</Link>
             <div className="nav-links">
                 <Link to="/">Home</Link>
-                <Link to="/login">FileShare</Link>
+                <a href="mailto:jack.lewis159@gmail.com">Contact Me</a>
                 <Link to="/contact">Contact</Link>
             </div>
             <OutsideClickHandler
@@ -30,7 +30,7 @@ function NavBar() {
             {isOpen && (
                 <div id="mobile-menu" className="responsive-nav-links">
                     <Link to="/">Home</Link>
-                    <Link to="/login">FileShare</Link>
+                    <a href="mailto:jack.lewis159@gmail.com">Contact Me</a>
                     <Link to="/contact">Contact</Link>
                 </div>
             )}
