@@ -69,7 +69,7 @@ function Home() {
                 </section>
             </section>
             <section className="projects">
-                <h1>My recent side projects:</h1>
+                <h1>Side projects of note:</h1>
                 <div className="project">
                     <a href="https://github.com/Jackerlus/soundb" className="project-link">
                         <img className="project-image" src="images/sounDB.png"
@@ -93,7 +93,7 @@ function Home() {
                     <h2>jacklewis.me (this site)</h2>
                     <ul className="project-description">
                         <li>My personal site. Used for my own dev experimentation and learning, as well as for showing my skills and projects to potential employers.</li>
-                        <li>Through this project I learned valuable lessons in responsive design, accessibility, and React development.</li>
+                        <li>Through this project I've learned valuable lessons in responsive design, accessibility, and React development.</li>
                     </ul>
                 </div>
                 <br />
@@ -107,6 +107,19 @@ function Home() {
                         <li>A web app based on the <a href="https://www.nodecg.dev/">nodecg</a> framework, co-developed with my friend <a href="https://github.com/baileybarberscargill">Bailey</a>. Designed to harvest statistics from VALORANT tournament matches via <a href="https://app.swaggerhub.com/apis-docs/Henrik-3/HenrikDev-API/3.0.0">Henrik's VALORANT API</a>.</li>
                         <li>Stores statistics on players and matches in a database which can then be used to generate graphics directly to live broadcast on the fly.</li>
                         <li>Developing BCT Stats taught me some great lessons in user experience, API usage, back-end development, and database interaction.</li>
+                    </ul>
+                </div>
+                <div className="project">
+                    <a href="/bct-wrapped" className="project-link">
+                        <img className="project-image" src="images/bctwrapped.png"
+                            alt="A screenshot of BCT Wrapped showing a user's most played agent from a VALORANT tournament and their seed and team name,
+                            with a Next button underneath indicating more information is available to see." />
+                    </a>
+                    <h2>BCT Wrapped</h2>
+                    <ul className="project-description">
+                        <li>Nodejs companion web app to BCT Stats built with Express solo-built by me, in the style of Spotify Wrapped.</li>
+                        <li>Draws from the BCT Stats database to create summaries and comparisons against other BCT players from a BCT season.</li>
+                        <li>Building this web app gave me helped me develop my knowledge of routing, using HTTP requests for database interaction, as well as using Express.js to start a project quickly.</li>
                     </ul>
                 </div>
             </section>
