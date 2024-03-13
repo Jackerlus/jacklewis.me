@@ -24,6 +24,7 @@ p {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-top: 50px;
 }
 
 .project-link {
@@ -86,33 +87,12 @@ p {
   text-align: left;
   font-size: 18px;
 }
-.home .dialogue .message2 {
-  font-size: 20px;
-  text-align: center;
-  justify-content: center;
-  font-family: "Regular", "Georgia", monospace;
-  opacity: 0;
-  animation: fadeInAnimation ease 1s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  animation-delay: 2s;
-}
-.home .dialogue .message3 {
-  opacity: 0;
-  text-align: center;
-  font-family: "MediumItalic", "Georgia", sans-serif;
-  justify-content: center;
-  animation: fadeInAnimation ease 1s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  animation-delay: 4s;
-}
 .home .dialogue .message4 {
   opacity: 0;
   animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-delay: 6s;
+  animation-delay: 2s;
 }
 .home .dialogue .portrait {
   border: black solid;
@@ -152,8 +132,8 @@ p {
   border-radius: 10px;
   border: #3d3b48 solid 3px;
   object-fit: cover;
-  width: 100%;
   max-width: 400px;
+  width: 100%;
   aspect-ratio: 1/1;
 }
 

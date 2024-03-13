@@ -10,11 +10,11 @@ function Home() {
                     <div>
                         <a className="character">Jack</a>
                         <div className="text">
-                            <h1 id="intro">I'm a computer science graduate looking to kickstart my career in software engineering.</h1>
+                            <h1 id="intro">I'm a computer science graduate looking to transition into software.</h1>
                         </div>
                     </div>
                 </li>
-                <li className="message2">
+                {/* <li className="message2">
                     <h2>
                         In a year's time, I'd like to be able to point at an exciting product and say...
                     </h2>
@@ -23,7 +23,7 @@ function Home() {
                     <h2>
                         "We did that."
                     </h2>
-                </li>
+                </li> */}
                 <li className="message4">
                     <h2>Hiring? I'd love to help your team build something amazing. Here's everything you need to know about me:</h2>
                     <br/>
@@ -61,13 +61,13 @@ function Home() {
                             <li>Photoshop and Graphic Design</li>
                             <li>Davinci Resolve and Video Editing</li>
                             <li>Social Media Content</li>
-                            <li>Customer Service</li>
                             <li>Fast learner with new technologies</li>
                             <li>Solid teamworking and communication fundamentals</li>
                         </ul>
                     </div>
                 </section>
             </section>
+            <hr className="break"></hr>
             <section className="projects">
                 <h1>Side projects of note:</h1>
                 <div className="project">
@@ -84,7 +84,6 @@ function Home() {
                         <li>This project was useful for refreshing my knowledge of API usage and manipulation of JSON objects.</li>
                     </ul>
                 </div>
-                <br />
                 <div className="project">
                     <a href="https://github.com/Jackerlus/jacklewis.me" className="project-link">
                         <img className="project-image" src="images/jacklewis.me.png"
@@ -96,7 +95,6 @@ function Home() {
                         <li>Through this project I've learned valuable lessons in responsive design, accessibility, and React development.</li>
                     </ul>
                 </div>
-                <br />
                 <div className="project">
                     <a href="/" className="project-link">
                         <img className="project-image" src="images/bctstats.png"

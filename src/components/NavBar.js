@@ -12,7 +12,7 @@ function NavBar() {
             <div className="nav-links">
                 <Link to="/">Home</Link>
                 <a href="mailto:jack.lewis159@gmail.com">Contact Me</a>
-                <Link to="/contact">Contact</Link>
+                {/*<Link to="/contact">Contact</Link>*/}
             </div>
             <OutsideClickHandler
                 onOutsideClick={() => {
@@ -31,7 +31,7 @@ function NavBar() {
                 <div id="mobile-menu" className="responsive-nav-links">
                     <Link to="/">Home</Link>
                     <a href="mailto:jack.lewis159@gmail.com">Contact Me</a>
-                    <Link to="/contact">Contact</Link>
+                    {/*<Link to="/contact">Contact</Link>*/}
                 </div>
             )}
         </nav>

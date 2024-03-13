@@ -25,6 +25,7 @@ p {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-top: 50px;
 }
 
 .project-link {
@@ -100,30 +101,30 @@ p {
       }
     }
 
-    //Second sentence underneath the dialogue box
-    .message2 {
-      font-size: 20px;
-      text-align: center;
-      justify-content: center;
-      font-family: "Regular", "Georgia", monospace;
-      opacity: 0;
-      animation: fadeInAnimation ease 1s;
-      animation-iteration-count: 1;
-      animation-fill-mode: forwards;
-      animation-delay: 2s;
-    }
+    // //Second sentence underneath the dialogue box
+    // .message2 {
+    //   font-size: 20px;
+    //   text-align: center;
+    //   justify-content: center;
+    //   font-family: "Regular", "Georgia", monospace;
+    //   opacity: 0;
+    //   animation: fadeInAnimation ease 1s;
+    //   animation-iteration-count: 1;
+    //   animation-fill-mode: forwards;
+    //   animation-delay: 2s;
+    // }
 
-    //"We did that"
-    .message3 {
-      opacity: 0;
-      text-align: center;
-      font-family: "MediumItalic", "Georgia", sans-serif;
-      justify-content: center;
-      animation: fadeInAnimation ease 1s;
-      animation-iteration-count: 1;
-      animation-fill-mode: forwards;
-      animation-delay: 4s;
-    }
+    // //"We did that"
+    // .message3 {
+    //   opacity: 0;
+    //   text-align: center;
+    //   font-family: "MediumItalic", "Georgia", sans-serif;
+    //   justify-content: center;
+    //   animation: fadeInAnimation ease 1s;
+    //   animation-iteration-count: 1;
+    //   animation-fill-mode: forwards;
+    //   animation-delay: 4s;
+    // }
 
     //Line of text enquiring about hiring opportunities before the divider
     .message4 {
@@ -131,7 +132,7 @@ p {
       animation: fadeInAnimation ease 1s;
       animation-iteration-count: 1;
       animation-fill-mode: forwards;
-      animation-delay: 6s;
+      animation-delay: 2s;
     }
 
     //Character portrait
