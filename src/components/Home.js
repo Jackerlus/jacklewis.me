@@ -10,7 +10,7 @@ function Home() {
                     <div>
                         <a className="character">Jack</a>
                         <div className="text">
-                            <h1 id="intro">I'm a computer science graduate looking to transition into software.</h1>
+                            <h1 id="intro">I'm an IT professional looking for new opportunities.</h1>
                         </div>
                     </div>
                 </li>
@@ -33,7 +33,7 @@ function Home() {
             <section className="about">
                 <h1 className="name">Jack Lewis</h1>
                 <div className="img-container">
-                    <img alt="The author, Jack, in his graduation gown and cap posing with his father on his graduation day."
+                    <img alt="The author, Jack, in his graduation gown and cap posing with his father on graduation day."
                         className="img-graduation" src="images/graduation.jpg" />
                 </div>
                 <h1>BSc, Computing for Business and Management (2.1)</h1>
@@ -47,20 +47,20 @@ function Home() {
                     <div className="proficiency">
                         <h2 className="skills-title">Proficiency in...</h2>
                         <ul>
-                            <li>Java</li>
-                            <li>HTML/CSS</li>
-                            <li>NodeJS development</li>
+                            <li>Technical support - software and hardware</li>
+                            <li>Python scripting and development</li>
+                            <li>NodeJS web app development</li>
                             <li>JavaScript (incl. React and JQuery)</li>
-                            <li>PHP</li>
-                            <li>SQL</li>
+                            <li>REST API usage</li>
+                            <li>SQL/database management</li>
                         </ul>
                     </div>
                     <div className="other-skills">
                         <h2 className="skills-title">Other skills include...</h2>
                         <ul>
-                            <li>Photoshop and Graphic Design</li>
-                            <li>Davinci Resolve and Video Editing</li>
-                            <li>Social Media Content</li>
+                            <li>Intermediate French</li>
+                            <li>Photoshop/Graphic Design</li>
+                            <li>Davinci Resolve/Final Cut Pro/Video Editing</li>
                             <li>Fast learner with new technologies</li>
                             <li>Solid teamworking and communication fundamentals</li>
                         </ul>
@@ -81,7 +81,7 @@ function Home() {
                             with cover art pulled from the <a href='https://musicbrainz.org/doc/Cover_Art_Archive/API'>Cover Art Archive API.</a></li>
                         <li>Inspired by freeCodeCamp's OMDB movie searching app <a href='https://www.freecodecamp.org/news/how-to-build-a-movie-search-app-using-react-hooks-24eb72ddfaf7/'>tutorial</a>.
                             I took the idea and designed it for music instead with a different set of APIs.</li>
-                        <li>This project was useful for refreshing my knowledge of API usage and manipulation of JSON objects.</li>
+                        <li>This project was useful for refreshing my knowledge of REST API usage and manipulation of JSON objects.</li>
                     </ul>
                 </div>
                 <div className="project">
@@ -104,7 +104,8 @@ function Home() {
                     <ul className="project-description">
                         <li>A web app based on the <a href="https://www.nodecg.dev/">nodecg</a> framework, co-developed with my friend <a href="https://github.com/baileybarberscargill">Bailey</a>. Designed to harvest statistics from VALORANT tournament matches via <a href="https://app.swaggerhub.com/apis-docs/Henrik-3/HenrikDev-API/3.0.0">Henrik's VALORANT API</a>.</li>
                         <li>Stores statistics on players and matches in a database which can then be used to generate graphics directly to live broadcast on the fly.</li>
-                        <li>Developing BCT Stats taught me some great lessons in user experience, API usage, back-end development, and database interaction.</li>
+                        <li>Developing BCT Stats taught me some great lessons in user experience, REST API calls, backend development, and database interaction.</li>
+                        <li>Github repo is private, please contact me if you'd like to know more about this project!</li>
                     </ul>
                 </div>
                 <div className="project">
